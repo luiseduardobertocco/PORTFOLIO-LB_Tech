@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="LB Tech icon">
+  <defs>
+    <linearGradient id="lb-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="url(#lb-gradient)"/>
+  <path d="M18 18h12v28H18zm18 0h10v8H36zm0 12h10v16H36zM18 48h28v-8H18z" fill="#ffffff" opacity="0.95"/>
+</svg>

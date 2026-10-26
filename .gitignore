@@ -1,0 +1,9 @@
+# Ignore local editor files
+.DS_Store
+.vscode/
+
+# Ignore generated cache files
+.cache/
+
+# Keep GitHub Pages static path clean
+.nojekyll
