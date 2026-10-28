@@ -32,18 +32,27 @@
               <small>Web • Software • IT</small>
             </span>
           </a>
+
+          <div class="language-switcher" aria-label="Language selector">
+            <label for="languageSelector" data-i18n="lang.label">Idioma</label>
+            <select id="languageSelector" aria-label="Select language">
+              <option value="pt-br">PT-BR</option>
+              <option value="en">EN</option>
+            </select>
+          </div>
+
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="mainNav">
             <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
-              <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-              <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-              <li class="nav-item"><a class="nav-link" href="#process">Process</a></li>
-              <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-              <li class="nav-item ms-lg-2"><a class="btn btn-primary btn-sm nav-cta" href="#contact">Start a Project</a></li>
+              <li class="nav-item"><a class="nav-link" href="#home" data-i18n="nav.home">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#services" data-i18n="nav.services">Services</a></li>
+              <li class="nav-item"><a class="nav-link" href="#projects" data-i18n="nav.projects">Projects</a></li>
+              <li class="nav-item"><a class="nav-link" href="#process" data-i18n="nav.process">Process</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about" data-i18n="nav.about">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact" data-i18n="nav.contact">Contact</a></li>
+              <li class="nav-item ms-lg-2"><a class="btn btn-primary btn-sm nav-cta" href="#contact" data-i18n="nav.cta">Start a Project</a></li>
             </ul>
           </div>
         </div>
@@ -54,14 +63,14 @@
       <section class="hero section-spacing">
         <div class="container hero-grid">
           <div class="hero-copy reveal fade-up">
-            <div class="eyebrow">Digital solutions for modern businesses</div>
-            <h1>Digital solutions that turn ideas into results.</h1>
-            <p class="lead">Modern websites, custom software and intelligent automation built to help your business grow.</p>
+            <div class="eyebrow" data-i18n="hero.eyebrow">Digital solutions for modern businesses</div>
+            <h1 data-i18n="hero.title">Digital solutions that turn ideas into results.</h1>
+            <p class="lead" data-i18n="hero.lead">Modern websites, custom software and intelligent automation built to help your business grow.</p>
             <div class="hero-actions d-flex flex-wrap gap-3">
-              <a class="btn btn-primary btn-lg" href="#contact">Start Your Project</a>
-              <a class="btn btn-secondary btn-lg" href="#projects">View Our Work</a>
+              <a class="btn btn-primary btn-lg" href="#contact" data-i18n="hero.primary">Start Your Project</a>
+              <a class="btn btn-secondary btn-lg" href="#projects" data-i18n="hero.secondary">View Our Work</a>
             </div>
-            <div class="hero-trust-line">Web Development • Custom Software • Automation</div>
+            <div class="hero-trust-line" data-i18n="hero.trust">Web Development • Custom Software • Automation</div>
           </div>
 
           <div class="hero-visual reveal fade-up" aria-label="LB Tech dashboard preview">
@@ -121,8 +130,8 @@
       <section id="services" class="section-spacing">
         <div class="container">
           <div class="section-heading reveal fade-up">
-            <span class="eyebrow">What We Build</span>
-            <h2>From high-converting websites to custom digital solutions.</h2>
+            <span class="eyebrow" data-i18n="section.services.eyebrow">What We Build</span>
+            <h2 data-i18n="section.services.title">From high-converting websites to custom digital solutions.</h2>
           </div>
           <div class="row g-4">
             <div class="col-lg-4 reveal fade-up">
@@ -180,8 +189,8 @@
       <section id="projects" class="section-spacing projects-section">
         <div class="container">
           <div class="section-heading reveal fade-up">
-            <span class="eyebrow">Selected Work</span>
-            <h2>A few examples of what we can build.</h2>
+            <span class="eyebrow" data-i18n="section.projects.eyebrow">Selected Work</span>
+            <h2 data-i18n="section.projects.title">A few examples of what we can build.</h2>
           </div>
           <div id="projectGrid" class="row g-4 project-grid" aria-live="polite"></div>
         </div>
@@ -190,8 +199,8 @@
       <section id="why" class="section-spacing">
         <div class="container">
           <div class="section-heading reveal fade-up">
-            <span class="eyebrow">Why Work With LB Tech?</span>
-            <h2>Practical technology, clear execution and business focus.</h2>
+            <span class="eyebrow" data-i18n="section.why.eyebrow">Why Work With LB Tech?</span>
+            <h2 data-i18n="section.why.title">Practical technology, clear execution and business focus.</h2>
           </div>
           <div class="row g-4">
             <div class="col-md-6 col-lg-3 reveal fade-up"><div class="feature-card"><h3>Business First</h3><p>Technology is only valuable when it solves a real business problem.</p></div></div>
@@ -205,8 +214,8 @@
       <section id="process" class="section-spacing process-section">
         <div class="container">
           <div class="section-heading reveal fade-up">
-            <span class="eyebrow">From Idea to Launch</span>
-            <h2>Simple, reliable and business-oriented development.</h2>
+            <span class="eyebrow" data-i18n="section.process.eyebrow">From Idea to Launch</span>
+            <h2 data-i18n="section.process.title">Simple, reliable and business-oriented development.</h2>
           </div>
           <div class="process-grid reveal fade-up">
             <div class="process-item"><span class="step-number">01</span><h3>Understand</h3><p>We define your goals, audience and requirements.</p></div>
@@ -255,11 +264,11 @@
         <div class="container">
           <div class="cta-band-inner reveal fade-up">
             <div>
-              <span class="eyebrow light">Have an idea? Let's build it.</span>
-              <h2>Have an idea? Let's build it.</h2>
+              <span class="eyebrow light" data-i18n="cta.eyebrow">Have an idea? Let's build it.</span>
+              <h2 data-i18n="cta.title">Have an idea? Let's build it.</h2>
             </div>
-            <p>Tell us what you need and let's turn it into a practical digital solution.</p>
-            <a class="btn btn-primary btn-lg" href="#contact">Start Your Project</a>
+            <p data-i18n="cta.text">Tell us what you need and let's turn it into a practical digital solution.</p>
+            <a class="btn btn-primary btn-lg" href="#contact" data-i18n="cta.button">Start Your Project</a>
           </div>
         </div>
       </section>
@@ -286,9 +295,9 @@
           <div class="row g-5 align-items-start">
             <div class="col-lg-5 reveal fade-up">
               <div class="contact-copy">
-                <span class="eyebrow">Let's Build Something That Matters.</span>
-                <h2>Let's Build Something That Matters.</h2>
-                <p>Have a website, software or automation project in mind? Tell us what you need.</p>
+                <span class="eyebrow" data-i18n="contact.eyebrow">Let's Build Something That Matters.</span>
+                <h2 data-i18n="contact.title">Let's Build Something That Matters.</h2>
+                <p data-i18n="contact.text">Have a website, software or automation project in mind? Tell us what you need.</p>
                 <div class="contact-box">
                   <p><strong>Prefer email?</strong></p>
                   <a id="contactEmailLink" href="mailto:hello@lbtech.dev">hello@lbtech.dev</a>
@@ -299,21 +308,21 @@
               <form class="contact-form" id="contactForm" novalidate>
                 <div class="row g-3">
                   <div class="col-md-6">
-                    <label for="name">Name</label>
-                    <input id="name" name="name" type="text" placeholder="Your name" required />
+                    <label for="name" data-i18n="contact.label.name">Name</label>
+                    <input id="name" name="name" type="text" data-i18n-placeholder="contact.placeholder.name" placeholder="Your name" required />
                     <div class="field-error" data-error-for="name"></div>
                   </div>
                   <div class="col-md-6">
-                    <label for="email">Email</label>
-                    <input id="email" name="email" type="email" placeholder="your@email.com" required />
+                    <label for="email" data-i18n="contact.label.email">Email</label>
+                    <input id="email" name="email" type="email" data-i18n-placeholder="contact.placeholder.email" placeholder="your@email.com" required />
                     <div class="field-error" data-error-for="email"></div>
                   </div>
                   <div class="col-md-6">
-                    <label for="company">Company</label>
-                    <input id="company" name="company" type="text" placeholder="Your company" />
+                    <label for="company" data-i18n="contact.label.company">Company</label>
+                    <input id="company" name="company" type="text" data-i18n-placeholder="contact.placeholder.company" placeholder="Your company" />
                   </div>
                   <div class="col-md-6">
-                    <label for="service">Service</label>
+                    <label for="service" data-i18n="contact.label.service">Service</label>
                     <select id="service" name="service" required>
                       <option value="">Select a service</option>
                       <option>Landing Page</option>
@@ -328,11 +337,11 @@
                     <div class="field-error" data-error-for="service"></div>
                   </div>
                   <div class="col-12">
-                    <label for="details">Project Details</label>
-                    <textarea id="details" name="details" rows="5" placeholder="Tell us about your project" required></textarea>
+                    <label for="details" data-i18n="contact.label.details">Project Details</label>
+                    <textarea id="details" name="details" rows="5" data-i18n-placeholder="contact.placeholder.details" placeholder="Tell us about your project" required></textarea>
                     <div class="field-error" data-error-for="details"></div>
                   </div>
-                  <div class="col-12"><button type="submit" class="btn btn-primary btn-lg w-100">Send Project Request</button></div>
+                  <div class="col-12"><button type="submit" class="btn btn-primary btn-lg w-100" data-i18n="contact.submit">Send Project Request</button></div>
                   <div class="col-12 form-status" id="formStatus" aria-live="polite"></div>
                 </div>
               </form>
@@ -348,11 +357,11 @@
           <a href="#home" class="brand-link"><span class="brand-mark">LB</span><span class="brand-text-wrap"><span class="brand-text">LB Tech</span><small>Web • Software • IT Solutions</small></span></a>
         </div>
         <div class="footer-links">
-          <a href="#home">Home</a>
-          <a href="#services">Services</a>
-          <a href="#projects">Projects</a>
-          <a href="#process">Process</a>
-          <a href="#contact">Contact</a>
+          <a href="#home" data-i18n="nav.home">Home</a>
+          <a href="#services" data-i18n="nav.services">Services</a>
+          <a href="#projects" data-i18n="nav.projects">Projects</a>
+          <a href="#process" data-i18n="nav.process">Process</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
         </div>
         <div class="footer-socials">
           <a href="" data-config="github" aria-label="GitHub">GitHub</a>
